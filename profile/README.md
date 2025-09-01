@@ -12,11 +12,11 @@ All projects in this portfolio are open-sourced under the Apache 2.0 license. Yo
 
 Most projects here make use of the [cnxns](https://github.com/n3ddu8/cnxns) library, developed by our lead engineer [n3ddu8](https://github.com/n3ddu8). If you find it useful, consider giving it a star or following us to stay updated on new developments.
 
-### [ingest-small](https://github.com/data-savvy-solutions/ingest-small)
+### [ingest-python](https://github.com/data-savvy-solutions/ingest-small)
 
-`ingest-small` is a Python-based ingestion tool designed to extract data from source systems and persist it into SQL Server. It is intended for small to medium datasets, where "small" refers to data volumes that do not require big data frameworks.
+`ingest-python` is an ingestion tool written in Python (relying only on locally installable packages such as Pandas) designed to extract data from source systems and persist it into SQL Server. It is intended for small datasets, where "small" refers to data volumes that do not require big data frameworks.
 
 The tool supports datasets larger than available memory using Pandas chunking. It covers the Extract and Load stages of an ELT pipeline.
 
-For more details, see the [ingest-small README](https://github.com/data-savvy-solutions/ingest-small/blob/main/README.md).
+For more details, see the [ingest-python README](https://github.com/data-savvy-solutions/ingest-python/blob/main/README.md).
 
